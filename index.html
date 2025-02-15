@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+            margin: 0;
+            background-color: #f8f9fa;
+        }
+        .container {
+            display: flex;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 60%;
+            margin-top: 5%;
+         
+            
+           
+        }
+        .image {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+        }
+        .image img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .details {
+            flex: 1;
+            padding: 20px;
+        }
+        .logo {
+            
+        }
+        @media (max-width: 768px) {
+            .container {
+                display: grid;
+                grid-template-columns: 1f;
+                width: 80%;
+            }
+            .details{
+                padding: 0px;
+                
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="logo">
+            <img src="image.png" alt="Company Logo" width="100">
+        </div>
+       
+       
+        <div class="details">
+            <h2>CHERISH LIFE</h2>
+            <p>CHERISH LIFE — это пищевая добавка, разработанная для женщин в возрасте от 18 до 45 лет, направленная на поддержку гормонального баланса и фертильности. Она улучшает либидо и сексуальное здоровье благодаря Libifem® — клинически проверенному экстракту семян пажитника, известному способностью повышать сексуальное желание и возбуждение. Добавка содержит биодоступный фолат в форме Quatrefolic®, который поддерживает репродуктивное здоровье и помогает снизить риск дефектов нервной трубки во время беременности. Кроме того, в состав входят витамины B6 и B12, способствующие выработке энергии, регуляции гормонов и здоровому образованию красных кровяных клеток.</strong>.
+                
+                </p>
+        </div>
+    </div>
+</body>
+</html>
